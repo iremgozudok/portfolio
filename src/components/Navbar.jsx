@@ -7,7 +7,7 @@ export default function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-700">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-700 bg-white">
       <div>
         <img src={Logo} alt="logo image" className="w-28" />
       </div>
@@ -27,7 +27,7 @@ export default function Navbar() {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-white"
         }
       >
         <li className="p-10 cursor-pointer">About Me</li>
