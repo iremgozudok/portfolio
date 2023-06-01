@@ -3,6 +3,7 @@ import { data } from "../data/data";
 
 function Projects() {
   const project = data;
+  //Comment
   return (
     <div name="projects" className="w-full">
       <div className="max-w-[1000px] mx-auto py-40 px-4 flex flex-col justify-center w-full h-full">
