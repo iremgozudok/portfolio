@@ -4,15 +4,11 @@
 
 .content-div{
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
-    height: 250px;
+    @apply aspect-video;
 }
 
-.content-div:hover {
-    background-image: linear-gradient(
-        to right,
-        rgba(90, 91, 92, 0.8),
-        hsla(0, 0%, 13%, 0.8)   
-    )!important;
+*{
+    scroll-behavior: smooth;
 }
